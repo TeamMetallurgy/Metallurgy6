@@ -37,7 +37,7 @@ If you prefer to use IntelliJ:
 If at any point you are missing libraries in your IDE, or you've run into problems you can run "gradlew --refresh-dependencies" to refresh the local cache. "gradlew clean" to reset everything {this does not affect your code} and then start the processs again.
 
 Should it still not work, 
-Refer to #ForgeGradle on EsperNet for more information about the gradle environment.
+Refer to #ForgeGradle on EsperNet for more information about the gradle environment. 
 or the Forge Project Discord discord.gg/UvedJ9m
 
 Forge source installation
