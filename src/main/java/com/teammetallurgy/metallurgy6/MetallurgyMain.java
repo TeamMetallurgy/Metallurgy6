@@ -2,6 +2,9 @@ package com.teammetallurgy.metallurgy6;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -24,6 +27,12 @@ public class MetallurgyMain {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "metallurgy6";
+    public static final ItemGroup GROUP = new ItemGroup(MOD_ID) {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(Items.DIAMOND_PICKAXE);
+        }
+    };
 
     public MetallurgyMain() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
