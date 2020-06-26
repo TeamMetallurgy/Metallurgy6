@@ -9,6 +9,7 @@ import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.world.biome.Biome;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.registries.ObjectHolder;
@@ -23,12 +24,10 @@ public class MetallurgyOres {
     public static List<Item> BLOCK_ITEMS = Lists.newArrayList();
 
     //COLD ORES
-    public static Block TEST_ORE = register(
-            "test_ore",
-            new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)),
-            Biome.TempCategory.COLD,
-            20, 0, 0, 50, 8
-    );
+    public static Block TEST_ORE = register("test_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F).harvestTool(ToolType.PICKAXE)), Biome.TempCategory.COLD, 20, 0, 0, 50, 8);
+
+    //NON-TEMPERATURE DEPENDENT ORES
+    public static Block GRAPHITE_ORE = register("graphite_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F).harvestTool(ToolType.PICKAXE)), null, 18, 0, 0, 128, 6);
 
     private static Block register(String registryName, Block thisBlock, Biome.TempCategory temp, int rarity, int offsetX, int offsetY, int maxYLevel, int maxVeinSize){
         Item.Properties props = new Item.Properties().group(MetallurgyMain.GROUP);

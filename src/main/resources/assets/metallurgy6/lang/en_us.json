@@ -1,4 +1,5 @@
 {
   "itemGroup.metallurgy6" : "Metallurgy",
-  "block.metallurgy6.test_ore": "Test Ore"
+  "block.metallurgy6.test_ore": "Test Ore",
+  "block.metallurgy6.graphite_ore": "Graphite Ore"
 }

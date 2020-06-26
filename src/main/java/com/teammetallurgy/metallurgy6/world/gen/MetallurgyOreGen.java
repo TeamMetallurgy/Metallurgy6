@@ -16,7 +16,7 @@ public class MetallurgyOreGen {
     public static void generateOres(){
         for(Biome b : ForgeRegistries.BIOMES){
             for(MetallurgyOreWrapper oreWrapper : MetallurgyOres.ORE_WRAPPERS){
-                if(b.getTempCategory() == oreWrapper.getTempCategory()){
+                if(oreWrapper.getTempCategory() == null || b.getTempCategory() == oreWrapper.getTempCategory()){
                     addOreToBiome(b, oreWrapper);
                 }
             }
