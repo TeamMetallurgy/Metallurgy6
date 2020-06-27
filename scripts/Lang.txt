@@ -1,0 +1,1 @@
+"block.metallurgy6.{api_name}_ore": "{Api_name} Ore"

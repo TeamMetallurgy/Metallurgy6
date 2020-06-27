@@ -1,0 +1,12 @@
+Copper	null	24	52	52	128	10
+Tin	null	20	52	52	96	8
+Lead	null	16	16	16	64	10
+Iron	null	20	16	16	64	10
+Mycelite	null	16	16	16	64	10
+Thokcha	null	16	16	16	64	10
+Nickel	null	16	16	16	64	10
+Manganese	null	8	0	0	48	8
+Zinc	null	4	32	32	64	8
+Gold	null	6	0	0	32	8
+Silver	null	4	0	0	32	8
+Platinum	null	4	0	0	32	8

@@ -1,5 +1,15 @@
 {
   "itemGroup.metallurgy6" : "Metallurgy",
   "block.metallurgy6.test_ore": "Test Ore",
-  "block.metallurgy6.graphite_ore": "Graphite Ore"
+  "block.metallurgy6.graphite_ore": "Graphite Ore",
+  "block.metallurgy6.copper_ore": "Copper Ore",
+  "block.metallurgy6.tin_ore": "Tin Ore",
+  "block.metallurgy6.lead_ore": "Lead Ore",
+  "block.metallurgy6.mycelite_ore": "Mycelite Ore",
+  "block.metallurgy6.thokcha_ore": "Thokcha Ore",
+  "block.metallurgy6.nickel_ore": "Nickel Ore",
+  "block.metallurgy6.manganese_ore": "Manganese Ore",
+  "block.metallurgy6.zinc_ore": "Zinc Ore",
+  "block.metallurgy6.silver_ore": "Silver Ore",
+  "block.metallurgy6.platinum_ore": "Platinum Ore"
 }

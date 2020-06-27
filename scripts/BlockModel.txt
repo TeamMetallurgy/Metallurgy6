@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "metallurgy6:block/{api_name}_ore"
+  }
+}

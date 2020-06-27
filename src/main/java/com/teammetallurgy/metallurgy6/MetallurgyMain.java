@@ -1,5 +1,6 @@
 package com.teammetallurgy.metallurgy6;
 
+import com.teammetallurgy.metallurgy6.objects.blocks.MetallurgyOres;
 import com.teammetallurgy.metallurgy6.world.gen.MetallurgyOreGen;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -28,7 +29,7 @@ public class MetallurgyMain {
     public static final ItemGroup GROUP = new ItemGroup(MOD_ID) {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(Items.DIAMOND_PICKAXE);
+            return new ItemStack(MetallurgyOres.GRAPHITE_ORE);
         }
     };
 
