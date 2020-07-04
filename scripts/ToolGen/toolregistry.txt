@@ -1,0 +1,5 @@
+public static final Item {API_NAME}_PICKAXE = register("{api_name}_pickaxe", new PickaxeItem(MetallurgyItemTier.{API_NAME}, {pDmg}, {pSpd}, new Item.Properties().group(MetallurgyMain.GROUP)));
+public static final Item {API_NAME}_AXE = register("{api_name}_axe", new AxeItem(MetallurgyItemTier.{API_NAME}, {aDmg}, {aSpd}, new Item.Properties().group(MetallurgyMain.GROUP)));
+public static final Item {API_NAME}_SHOVEL = register("{api_name}_shovel", new ShovelItem(MetallurgyItemTier.{API_NAME}, {shDmg}, {shSpd}, new Item.Properties().group(MetallurgyMain.GROUP)));
+public static final Item {API_NAME}_SWORD = register("{api_name}_sword", new SwordItem(MetallurgyItemTier.{API_NAME}, {swDmg}, {swSpd}, new Item.Properties().group(MetallurgyMain.GROUP)));
+public static final Item {API_NAME}_HOE = register("{api_name}_hoe", new HoeItem(MetallurgyItemTier.{API_NAME}, {hSpd}, new Item.Properties().group(MetallurgyMain.GROUP)));

@@ -1,0 +1,1 @@
+public static Block {API_NAME}_ORE = register("{api_name}_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE)), {temp}, {rarity}, {offx}, {offy}, {maxy}, {maxvein});

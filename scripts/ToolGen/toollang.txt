@@ -1,0 +1,5 @@
+"item.metallurgy6.{api_name}_pickaxe": "{Api_name} Pickaxe",
+"item.metallurgy6.{api_name}_axe": "{Api_name} Axe",
+"item.metallurgy6.{api_name}_shovel": "{Api_name} Shovel",
+"item.metallurgy6.{api_name}_hoe": "{Api_name} Hoe",
+"item.metallurgy6.{api_name}_sword": "{Api_name} Sword",
