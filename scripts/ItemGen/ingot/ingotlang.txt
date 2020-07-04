@@ -1,0 +1,1 @@
+"item.metallurgy6.{api_name}_ingot": "{Api_name} Ingot",
