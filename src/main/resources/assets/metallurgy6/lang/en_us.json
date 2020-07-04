@@ -1,5 +1,6 @@
 {
-  "itemGroup.metallurgy6" : "Metallurgy",
+  "itemGroup.materials" : "Metallurgy: Materials",
+  "itemGroup.tools" : "Metallurgy: Tools",
   "block.metallurgy6.test_ore": "Test Ore",
   "block.metallurgy6.graphite_ore": "Graphite Ore",
   "block.metallurgy6.copper_ore": "Copper Ore",

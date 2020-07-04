@@ -11,7 +11,6 @@ import net.minecraft.item.Item;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.registries.ObjectHolder;
 
 import java.util.List;
@@ -41,7 +40,7 @@ public class MetallurgyOres {
 
 
     private static Block register(String registryName, Block thisBlock, Biome.TempCategory temp, int rarity, int offsetX, int offsetY, int maxYLevel, int maxVeinSize){
-        Item.Properties props = new Item.Properties().group(MetallurgyMain.GROUP);
+        Item.Properties props = new Item.Properties().group(MetallurgyMain.MATERIALS);
 
         thisBlock.setRegistryName(registryName);
         BlockItem thisBlockItem = new BlockItem(thisBlock, props);

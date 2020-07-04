@@ -1,6 +1,7 @@
 package com.teammetallurgy.metallurgy6;
 
 import com.teammetallurgy.metallurgy6.objects.blocks.MetallurgyOres;
+import com.teammetallurgy.metallurgy6.objects.items.MetallurgyItems;
 import com.teammetallurgy.metallurgy6.world.gen.MetallurgyOreGen;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -26,10 +27,16 @@ public class MetallurgyMain {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "metallurgy6";
-    public static final ItemGroup GROUP = new ItemGroup(MOD_ID) {
+    public static final ItemGroup MATERIALS = new ItemGroup("materials") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(MetallurgyOres.GRAPHITE_ORE);
+            return new ItemStack(MetallurgyItems.WHITE_GOLD_INGOT);
+        }
+    };
+    public static final ItemGroup TOOLS = new ItemGroup("tools") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(MetallurgyItems.TEST_SWORD);
         }
     };
 

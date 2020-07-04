@@ -22,7 +22,7 @@ public class MetallurgyBlocks {
 
 
     private static Block register(String registryName, Block thisBlock){
-        Item.Properties props = new Item.Properties().group(MetallurgyMain.GROUP);
+        Item.Properties props = new Item.Properties().group(MetallurgyMain.MATERIALS);
 
         thisBlock.setRegistryName(registryName);
         BlockItem thisBlockItem = new BlockItem(thisBlock, props);
