@@ -1,0 +1,3 @@
+{API_NAME}({hrv}, {uses}, {eff}.0F, {matDmg}.0F, {ench}, () -> {
+      return Ingredient.fromItems(MetallurgyItems.{API_NAME}_INGOT);
+   }),

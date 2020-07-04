@@ -3,8 +3,6 @@ package com.teammetallurgy.metallurgy6.objects.blocks;
 import com.google.common.collect.Lists;
 import com.teammetallurgy.metallurgy6.MetallurgyMain;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -20,11 +18,11 @@ public class MetallurgyBlocks {
     public static List<Block> BLOCKS = Lists.newArrayList();
     public static List<Item> BLOCK_ITEMS = Lists.newArrayList();
 
-    //declare blocks here
-    public static Block TEST_ORE = register("test_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F)));
+    //declare non-ore blocks here
+
 
     private static Block register(String registryName, Block thisBlock){
-        Item.Properties props = new Item.Properties().group(MetallurgyMain.GROUP);
+        Item.Properties props = new Item.Properties().group(MetallurgyMain.MATERIALS);
 
         thisBlock.setRegistryName(registryName);
         BlockItem thisBlockItem = new BlockItem(thisBlock, props);
