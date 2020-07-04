@@ -2,6 +2,7 @@ package com.teammetallurgy.metallurgy6;
 
 import com.teammetallurgy.metallurgy6.objects.blocks.MetallurgyBlocks;
 import com.teammetallurgy.metallurgy6.objects.blocks.MetallurgyOres;
+import com.teammetallurgy.metallurgy6.objects.items.MetallurgyItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -21,5 +22,6 @@ public class MetallurgyRegistries {
     public static void registerItems(final RegistryEvent.Register<Item> event) {
         MetallurgyBlocks.registerBlockItems(event);
         MetallurgyOres.registerBlockItems(event);
+        MetallurgyItems.registerItems(event);
     }
 }

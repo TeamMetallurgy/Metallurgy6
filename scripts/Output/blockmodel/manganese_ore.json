@@ -1,6 +1,0 @@
-﻿{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "metallurgy6:block/manganese_ore"
-  }
-}

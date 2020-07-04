@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": [
-      { "model": "metallurgy6:block/{api_name}_ore" }
-    ]
-  }
-}
