@@ -1,0 +1,2 @@
+public static final Item CRUSHED_{API_NAME} = register("crushed_{api_name}", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+public static final Item {API_NAME}_NUGGET = register("{api_name}_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));

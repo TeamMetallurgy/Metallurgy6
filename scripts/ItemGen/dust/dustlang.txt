@@ -1,0 +1,2 @@
+"item.metallurgy6.tiny_{api_name}_dust": "Tiny {Api_name} Dust",
+"item.metallurgy6.{api_name}_dust": "{Api_name} Dust"

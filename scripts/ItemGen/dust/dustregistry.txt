@@ -1,0 +1,2 @@
+public static final Item TINY_{API_NAME}_DUST = register("tiny_{api_name}_dust", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+public static final Item {API_NAME}_DUST = register("{api_name}_dust", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
