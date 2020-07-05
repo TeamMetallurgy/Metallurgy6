@@ -1,0 +1,12 @@
+Copper
+Tin
+Lead
+Mycelite
+Thokcha
+Nickel
+Manganese
+Zinc
+Silver
+Platinum
+Gold
+Iron
