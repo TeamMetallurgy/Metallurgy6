@@ -1,0 +1,6 @@
+﻿{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "metallurgy6:item/kings_steel_nugget"
+    }
+}

@@ -23,11 +23,11 @@ public class MetallurgyItems {
     public static final Item TEST_HOE = register("test_hoe", new HoeItem(MetallurgyItemTier.TEST_TIER, 0, new Item.Properties().group(MetallurgyMain.TOOLS)));
     public static final Item TEST_AXE = register("test_axe", new AxeItem(MetallurgyItemTier.TEST_TIER, 0, 2.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
 
-    public static final Item SLAG_PICKAXE = register("slag_pickaxe", new PickaxeItem(MetallurgyItemTier.SLAG, 2, -2.8F, new Item.Properties().group(MetallurgyMain.TOOLS)));
-    public static final Item SLAG_AXE = register("slag_axe", new AxeItem(MetallurgyItemTier.SLAG, 7, -3.2F, new Item.Properties().group(MetallurgyMain.TOOLS)));
-    public static final Item SLAG_SHOVEL = register("slag_shovel", new ShovelItem(MetallurgyItemTier.SLAG, 1.5F, -3.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
-    public static final Item SLAG_SWORD = register("slag_sword", new SwordItem(MetallurgyItemTier.SLAG, 4, -2.4F, new Item.Properties().group(MetallurgyMain.TOOLS)));
-    public static final Item SLAG_HOE = register("slag_hoe", new HoeItem(MetallurgyItemTier.SLAG, -2.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
+    public static final Item SLAG_ALLOY_PICKAXE = register("slag_alloy_pickaxe", new PickaxeItem(MetallurgyItemTier.SLAG, 2, -2.8F, new Item.Properties().group(MetallurgyMain.TOOLS)));
+    public static final Item SLAG_ALLOY_AXE = register("slag_alloy_axe", new AxeItem(MetallurgyItemTier.SLAG, 7, -3.2F, new Item.Properties().group(MetallurgyMain.TOOLS)));
+    public static final Item SLAG_ALLOY_SHOVEL = register("slag_alloy_shovel", new ShovelItem(MetallurgyItemTier.SLAG, 1.5F, -3.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
+    public static final Item SLAG_ALLOY_SWORD = register("slag_alloy_sword", new SwordItem(MetallurgyItemTier.SLAG, 4, -2.4F, new Item.Properties().group(MetallurgyMain.TOOLS)));
+    public static final Item SLAG_ALLOY_HOE = register("slag_alloy_hoe", new HoeItem(MetallurgyItemTier.SLAG, -2.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
     public static final Item COPPER_PICKAXE = register("copper_pickaxe", new PickaxeItem(MetallurgyItemTier.COPPER, 1, -2.8F, new Item.Properties().group(MetallurgyMain.TOOLS)));
     public static final Item COPPER_AXE = register("copper_axe", new AxeItem(MetallurgyItemTier.COPPER, 7, -3.2F, new Item.Properties().group(MetallurgyMain.TOOLS)));
     public static final Item COPPER_SHOVEL = register("copper_shovel", new ShovelItem(MetallurgyItemTier.COPPER, 1.5F, -3.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
@@ -204,7 +204,7 @@ public class MetallurgyItems {
     public static final Item PURE_STEEL_SWORD = register("pure_steel_sword", new SwordItem(MetallurgyItemTier.PURE_STEEL, 3, -2.4F, new Item.Properties().group(MetallurgyMain.TOOLS)));
     public static final Item PURE_STEEL_HOE = register("pure_steel_hoe", new HoeItem(MetallurgyItemTier.PURE_STEEL, 0.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
 
-    public static final Item SLAG_INGOT = register("slag_ingot", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item SLAG_ALLOY_INGOT = register("slag_alloy_ingot", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
     public static final Item COPPER_INGOT = register("copper_ingot", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
     public static final Item TIN_INGOT = register("tin_ingot", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
     public static final Item BRONZE_INGOT = register("bronze_ingot", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
@@ -241,8 +241,8 @@ public class MetallurgyItems {
     public static final Item KINGS_STEEL_INGOT = register("kings_steel_ingot", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
     public static final Item PURE_STEEL_INGOT = register("pure_steel_ingot", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
 
-    public static final Item SLAG_TINY_DUST = register("slag_tiny_dust", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
-    public static final Item SLAG_DUST = register("slag_dust", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item SLAG_ALLOY_TINY_DUST = register("slag_alloy_tiny_dust", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item SLAG_ALLOY_DUST = register("slag_alloy_dust", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
     public static final Item COPPER_TINY_DUST = register("copper_tiny_dust", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
     public static final Item COPPER_DUST = register("copper_dust", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
     public static final Item TIN_TINY_DUST = register("tin_tiny_dust", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
@@ -336,6 +336,33 @@ public class MetallurgyItems {
     public static final Item PLATINUM_NUGGET = register("platinum_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
     public static final Item GOLD_CRUSHED_ORE = register("gold_crushed_ore", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
     public static final Item IRON_CRUSHED_ORE = register("iron_crushed_ore", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item SLAG_ALLOY_NUGGET = register("slag_alloy_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item BRONZE_NUGGET = register("bronze_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item CUPRONICKEL_NUGGET = register("cupronickel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item MONEL_NUGGET = register("monel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item CROWN_GOLD_NUGGET = register("crown_gold_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item WHITE_GOLD_NUGGET = register("white_gold_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item PEWTER_NUGGET = register("pewter_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item MOLYBDOCHALKOS_NUGGET = register("molybdochalkos_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item HEPATIZON_NUGGET = register("hepatizon_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item ANGMALLEN_NUGGET = register("angmallen_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item HEAVY_STEEL_NUGGET = register("heavy_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item DAMASCUS_STEEL_NUGGET = register("damascus_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item MANGANESE_STEEL_NUGGET = register("manganese_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item NICKEL_STEEL_NUGGET = register("nickel_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item FUNGAL_STEEL_NUGGET = register("fungal_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item METEOR_STEEL_NUGGET = register("meteor_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item WOVEN_STEEL_NUGGET = register("woven_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item BRASS_NUGGET = register("brass_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item ROSE_GOLD_NUGGET = register("rose_gold_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item ELECTRUM_NUGGET = register("electrum_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item ARGENTAN_NUGGET = register("argentan_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item RHODITE_NUGGET = register("rhodite_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item CORINTHIAN_STEEL_NUGGET = register("corinthian_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item SHIMMER_STEEL_NUGGET = register("shimmer_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item KINGS_STEEL_NUGGET = register("kings_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+    public static final Item PURE_STEEL_NUGGET = register("pure_steel_nugget", new Item((new Item.Properties()).group(MetallurgyMain.MATERIALS)));
+
 
 
 
