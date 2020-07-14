@@ -1,2 +1,2 @@
-"item.metallurgy6.crushed_{api_name}": "Crushed {Api_name}",
+"item.metallurgy6.{api_name}_crushed_ore": "{Api_name} Crushed Ore",
 "item.metallurgy6.{api_name}_nugget": "{Api_name} Nugget",

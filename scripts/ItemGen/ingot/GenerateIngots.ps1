@@ -13,7 +13,7 @@ foreach($d in $data){
 
     $ingotmodel = $model.Replace('{api_name}', $lcApiName)
     $filename = $lcApiName + '_ingot'
-    #$ingotmodel | Out-File "Output\blockmodel\$filename.json" -Encoding utf8
+    $ingotmodel | Out-File "Output\blockmodel\$filename.json" -Encoding utf8
 
     $ingotlang = $lang.Replace('{api_name}', $lcApiName).Replace('{Api_name}', $d)
     $ingotlang >> "Output\Lang.txt"

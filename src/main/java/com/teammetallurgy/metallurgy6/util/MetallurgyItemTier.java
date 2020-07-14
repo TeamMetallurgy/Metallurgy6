@@ -13,7 +13,7 @@ public enum MetallurgyItemTier implements IItemTier {
         return Ingredient.fromItems(MetallurgyOres.TEST_ORE);
     }),
     SLAG(2, 300, 5.0F, 0.0F, 6, () -> {
-        return Ingredient.fromItems(MetallurgyItems.SLAG_INGOT);
+        return Ingredient.fromItems(MetallurgyItems.SLAG_ALLOY_INGOT);
     }),
     COPPER(2, 180, 5.0F, 1.0F, 7, () -> {
         return Ingredient.fromItems(MetallurgyItems.COPPER_INGOT);
