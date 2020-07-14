@@ -17,7 +17,7 @@ foreach($d in $data){
     $nmodel | Out-File "Output\blockmodel\$nuggetfilename.json" -Encoding utf8
     
     $cmodel = $crushedmodel.Replace('{api_name}', $lcApiName)
-    $crushedfilename = 'crushed_' + $lcApiName
+    $crushedfilename = $lcApiName + '_crushed_ore'
     $cmodel | Out-File "Output\blockmodel\$crushedfilename.json" -Encoding utf8
 
     $itemlang = $lang.Replace('{api_name}', $lcApiName).Replace('{Api_name}', $d)
