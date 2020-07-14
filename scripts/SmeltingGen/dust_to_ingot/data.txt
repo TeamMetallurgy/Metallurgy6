@@ -1,0 +1,36 @@
+Slag Alloy	0.7
+Copper	0.7
+Tin	0.7
+Bronze	0.7
+Lead	0.7
+Mycelite	0.7
+Thokcha	0.7
+Nickel	0.7
+Cupronickel	0.7
+Monel	0.7
+Crown Gold	0.7
+White Gold	0.7
+Pewter	0.7
+Molybdochalkos	0.7
+Hepatizon	0.7
+Angmallen	0.7
+Manganese	0.7
+Heavy Steel	0.7
+Damascus Steel	0.7
+Manganese Steel	0.7
+Nickel Steel	0.7
+Fungal Steel	0.7
+Meteor Steel	0.7
+Woven Steel	0.7
+Zinc	1.0
+Brass	1.0
+Silver	1.0
+Platinum	1.0
+Rose Gold	1.0
+Electrum	1.0
+Argentan	1.0
+Rhodite	1.0
+Corinthian Steel	1.0
+Shimmer Steel	1.0
+King's Steel	1.0
+Pure Steel	1.0
