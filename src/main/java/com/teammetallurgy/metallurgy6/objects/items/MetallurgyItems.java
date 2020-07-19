@@ -17,12 +17,6 @@ public class MetallurgyItems {
 
     public static List<Item> ITEMS = Lists.newArrayList();
 
-    public static final Item TEST_PICKAXE = register("test_pickaxe", new PickaxeItem(MetallurgyItemTier.TEST_TIER, 0, 2.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
-    public static final Item TEST_SHOVEL = register("test_shovel", new ShovelItem(MetallurgyItemTier.TEST_TIER, 0, 2.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
-    public static final Item TEST_SWORD = register("test_sword", new SwordItem(MetallurgyItemTier.TEST_TIER, 0, 2.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
-    public static final Item TEST_HOE = register("test_hoe", new HoeItem(MetallurgyItemTier.TEST_TIER, 0, new Item.Properties().group(MetallurgyMain.TOOLS)));
-    public static final Item TEST_AXE = register("test_axe", new AxeItem(MetallurgyItemTier.TEST_TIER, 0, 2.0F, new Item.Properties().group(MetallurgyMain.TOOLS)));
-
     public static final Item GRAPHITE = register("graphite", new Item(new Item.Properties().group(MetallurgyMain.MATERIALS)));
     public static final Item IRON_ROD = register("iron_rod", new Item(new Item.Properties().group(MetallurgyMain.TOOLS)));
     public static final Item STEEL_ROD = register("steel_rod", new Item(new Item.Properties().group(MetallurgyMain.TOOLS)));
