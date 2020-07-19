@@ -1,9 +1,0 @@
-﻿{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "metallurgy6:woven_steel_ore"
-  },
-  "result": "metallurgy6:woven_steel_ingot",
-  "experience": 0.7,
-  "cookingtime": 100
-}
