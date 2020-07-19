@@ -24,10 +24,5 @@ public class MetallurgyRegistries {
         MetallurgyOres.registerBlockItems(event);
 
         MetallurgyItems.registerItems(event);
-        MetallurgyDusts.registerItems(event);
-        MetallurgyNuggets.registerItems(event);
-        MetallurgyIngots.registerItems(event);
-        MetallurgyCrushedOres.registerItems(event);
-        MetallurgyTools.registerItems(event);
     }
 }
