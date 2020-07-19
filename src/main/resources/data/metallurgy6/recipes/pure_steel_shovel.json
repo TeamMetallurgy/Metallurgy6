@@ -1,0 +1,19 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/steel"
+    },
+    "X": {
+      "tag": "forge:ingots/pure_steel"
+    }
+  },
+  "result": {
+    "item": "metallurgy6:pure_steel_shovel"
+  }
+}

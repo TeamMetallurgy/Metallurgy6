@@ -1,0 +1,9 @@
+﻿{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy6:corinthian_steel_ore"
+  },
+  "result": "metallurgy6:corinthian_steel_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

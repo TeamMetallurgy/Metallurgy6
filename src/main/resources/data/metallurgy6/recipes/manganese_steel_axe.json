@@ -1,0 +1,19 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/iron"
+    },
+    "X": {
+      "tag": "forge:ingots/manganese_steel"
+    }
+  },
+  "result": {
+    "item": "metallurgy6:manganese_steel_axe"
+  }
+}

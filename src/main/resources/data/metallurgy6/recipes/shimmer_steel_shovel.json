@@ -1,0 +1,19 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/iron"
+    },
+    "X": {
+      "tag": "forge:ingots/shimmer_steel"
+    }
+  },
+  "result": {
+    "item": "metallurgy6:shimmer_steel_shovel"
+  }
+}
