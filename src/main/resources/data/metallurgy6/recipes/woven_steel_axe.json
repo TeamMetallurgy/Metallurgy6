@@ -1,0 +1,19 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/steel"
+    },
+    "X": {
+      "tag": "forge:ingots/woven_steel"
+    }
+  },
+  "result": {
+    "item": "metallurgy6:woven_steel_axe"
+  }
+}

@@ -1,0 +1,1 @@
+public static final Item {API_NAME} = register("{api_name}", new Item(new Item.Properties().group(MetallurgyMain.TOOLS)));

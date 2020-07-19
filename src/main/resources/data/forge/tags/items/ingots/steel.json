@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "metallurgy6:heavy_steel_ingot",
+        "metallurgy6:damascus_steel_ingot",
+        "metallurgy6:manganese_steel_ingot",
+        "metallurgy6:nickel_steel_ingot",
+        "metallurgy6:meteor_steel_ingot",
+        "metallurgy6:kings_steel_ingot",
+        "metallurgy6:corinthian_steel_ingot"
+    ]
+}

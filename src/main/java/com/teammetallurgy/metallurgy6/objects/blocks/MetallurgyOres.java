@@ -26,18 +26,17 @@ public class MetallurgyOres {
     public static Block TEST_ORE = register("test_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F).harvestTool(ToolType.PICKAXE)), Biome.TempCategory.COLD, 20, 0, 0, 50, 8);
 
     //NON-TEMPERATURE DEPENDENT ORES
-    public static Block GRAPHITE_ORE = register("graphite_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 14, 64, 64, 128, 6);
     public static Block COPPER_ORE = register("copper_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 24, 52, 52, 128, 10);
-    public static Block TIN_ORE = register("tin_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 20, 52, 52, 96, 8);
+    public static Block GRAPHITE_ORE = register("graphite_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 14, 64, 64, 128, 6);
     public static Block LEAD_ORE = register("lead_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 16, 16, 16, 64, 10);
-    public static Block MYCELITE_ORE = register("mycelite_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 16, 16, 16, 64, 10);
-    public static Block THOKCHA_ORE = register("thokcha_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 16, 16, 16, 64, 10);
-    public static Block NICKEL_ORE = register("nickel_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 16, 16, 16, 64, 10);
     public static Block MANGANESE_ORE = register("manganese_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(3)), null, 8, 0, 0, 48, 8);
-    public static Block ZINC_ORE = register("zinc_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(1)), null, 4, 32, 32, 64, 8);
-    public static Block SILVER_ORE = register("silver_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 4, 0, 0, 32, 8);
+    public static Block MYCELITE_ORE = register("mycelite_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 16, 16, 16, 64, 10);
+    public static Block NICKEL_ORE = register("nickel_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 16, 16, 16, 64, 10);
     public static Block PLATINUM_ORE = register("platinum_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 4, 0, 0, 32, 8);
-
+    public static Block SILVER_ORE = register("silver_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 4, 0, 0, 32, 8);
+    public static Block THOKCHA_ORE = register("thokcha_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 16, 16, 16, 64, 10);
+    public static Block TIN_ORE = register("tin_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 20, 52, 52, 96, 8);
+    public static Block ZINC_ORE = register("zinc_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(1)), null, 4, 32, 32, 64, 8);
 
     private static Block register(String registryName, Block thisBlock, Biome.TempCategory temp, int rarity, int offsetX, int offsetY, int maxYLevel, int maxVeinSize){
         Item.Properties props = new Item.Properties().group(MetallurgyMain.MATERIALS);

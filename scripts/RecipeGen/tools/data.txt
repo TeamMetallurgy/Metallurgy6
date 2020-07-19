@@ -1,0 +1,36 @@
+Slag	Wooden
+Copper	Wooden
+Tin	Wooden
+Bronze	Wooden
+Lead	Wooden
+Mycelite	Wooden
+Thokcha	Wooden
+Nickel	Wooden
+Cupronickel	Wooden
+Monel	Wooden
+Crown Gold	Wooden
+White Gold	Wooden
+Pewter	Wooden
+Molybdochalkos	Wooden
+Hepatizon	Wooden
+Angmallen	Wooden
+Manganese	Wooden
+Heavy Steel	Iron
+Damascus Steel	Iron
+Manganese Steel	Iron
+Nickel Steel	Iron
+Fungal Steel	Iron
+Meteor Steel	Iron
+Woven Steel	Steel
+Zinc	Wooden
+Brass	Wooden
+Silver	Wooden
+Platinum	Wooden
+Rose Gold	Wooden
+Electrum	Wooden
+Argentan	Wooden
+Rhodite	Wooden
+Corinthian Steel	Iron
+Shimmer Steel	Iron
+King's Steel	Iron
+Pure Steel	Steel

@@ -1,0 +1,19 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/iron"
+    },
+    "X": {
+      "tag": "forge:ingots/corinthian_steel"
+    }
+  },
+  "result": {
+    "item": "metallurgy6:corinthian_steel_sword"
+  }
+}

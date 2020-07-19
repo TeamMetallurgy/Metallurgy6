@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/{rod}"
+    },
+    "X": {
+      "tag": "forge:ingots/{material}"
+    }
+  },
+  "result": {
+    "item": "metallurgy6:{material}_pickaxe"
+  }
+}
