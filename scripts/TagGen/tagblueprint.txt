@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "metallurgy6:{api_name}"
+    ]
+}

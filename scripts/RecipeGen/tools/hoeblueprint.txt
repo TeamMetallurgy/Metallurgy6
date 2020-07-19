@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/{rod}"
+    },
+    "X": {
+      "tag": "forge:ingots/{material}"
+    }
+  },
+  "result": {
+    "item": "metallurgy6:{material}_hoe"
+  }
+}
