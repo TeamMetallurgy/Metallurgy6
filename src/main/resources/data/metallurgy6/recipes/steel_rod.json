@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "sticks",
+    "pattern": [
+        "#",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "tag": "forge:ingots/steel"
+        }
+    },
+    "result": {
+        "item": "metallurgy6:steel_rod",
+        "count": 2
+    }
+}

@@ -353,5 +353,7 @@
   "item.metallurgy6.corinthian_steel_nugget": "Corinthian Steel Nugget",
   "item.metallurgy6.shimmer_steel_nugget": "Shimmer Steel Nugget",
   "item.metallurgy6.kings_steel_nugget": "King's Steel Nugget",
-  "item.metallurgy6.pure_steel_nugget": "Pure Steel Nugget"
+  "item.metallurgy6.pure_steel_nugget": "Pure Steel Nugget",
+  "item.metallurgy6.iron_rod": "Iron Rod",
+  "item.metallurgy6.steel_rod": "Steel Rod"
 }
