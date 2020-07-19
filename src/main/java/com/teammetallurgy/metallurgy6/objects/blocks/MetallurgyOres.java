@@ -22,9 +22,6 @@ public class MetallurgyOres {
     public static List<Block> BLOCKS = Lists.newArrayList();
     public static List<Item> BLOCK_ITEMS = Lists.newArrayList();
 
-    //COLD ORES
-    public static Block TEST_ORE = register("test_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(1.5F, 6.0F).harvestTool(ToolType.PICKAXE)), Biome.TempCategory.COLD, 20, 0, 0, 50, 8);
-
     //NON-TEMPERATURE DEPENDENT ORES
     public static Block COPPER_ORE = register("copper_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 24, 52, 52, 128, 10);
     public static Block GRAPHITE_ORE = register("graphite_ore", new Block(Block.Properties.create(Material.ROCK, MaterialColor.STONE).hardnessAndResistance(3.0F, 3.0F).harvestTool(ToolType.PICKAXE).harvestLevel(2)), null, 14, 64, 64, 128, 6);

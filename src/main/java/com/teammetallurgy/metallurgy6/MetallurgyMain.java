@@ -1,7 +1,7 @@
 package com.teammetallurgy.metallurgy6;
 
 import com.teammetallurgy.metallurgy6.objects.items.MetallurgyIngots;
-import com.teammetallurgy.metallurgy6.objects.items.MetallurgyItems;
+import com.teammetallurgy.metallurgy6.objects.items.MetallurgyTools;
 import com.teammetallurgy.metallurgy6.world.gen.MetallurgyOreGen;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroup;
@@ -31,7 +31,7 @@ public class MetallurgyMain {
     public static final ItemGroup TOOLS = new ItemGroup("tools") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(MetallurgyItems.TEST_SWORD);
+            return new ItemStack(MetallurgyTools.WHITE_GOLD_SWORD);
         }
     };
 

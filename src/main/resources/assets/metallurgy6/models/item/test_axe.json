@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "metallurgy6:item/test_axe"
-  }
-}
